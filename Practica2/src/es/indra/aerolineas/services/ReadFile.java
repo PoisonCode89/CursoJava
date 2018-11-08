@@ -22,7 +22,7 @@ public class ReadFile {
 		
 		List<String> vuelos = new ArrayList<>();
 		
-		Path path = Paths.get("/Users/josejarizav/repositorios/CursoJava/vuelos.txt");
+		Path path = Paths.get("C:/Users/P.era-1/repositorios/CursoJava/Practica-curso-JAVA/vuelos.txt");
 		try {
 			vuelos = Files.readAllLines(path);
 		} catch (IOException e) {
@@ -38,7 +38,7 @@ public class ReadFile {
 		
 		List<String> vuelos = new ArrayList<>();
 		
-		Path path = Paths.get("/Users/josejarizav/repositorios/CursoJava/vuelos.txt");
+		Path path = Paths.get("C:/Users/P.era-1/repositorios/CursoJava/Practica-curso-JAVA/vuelos.txt");
 		vuelos = Files.readAllLines(path);
 		
 		
